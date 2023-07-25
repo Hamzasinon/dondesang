@@ -81,13 +81,27 @@ WSGI_APPLICATION = 'sang.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'dondesang',
-        'HOST': '127.0.0.1',
+        'NAME': 'u622734756_dondesang',
+        'HOST': 'm-dad.com',
         'PORT': 3306,
-        'USER': 'root',
-        'PASSWORD': '',
+        'USER': 'u622734756_seydou',
+        'PASSWORD': 'Fer60153982@',
+        'OPTIONS': {
+            'sql_mode': 'STRICT_TRANS_TABLES',
+        },
     }
 }
+#DATABASES = {
+#    'default': {
+#        'ENGINE': 'django.db.backends.mysql',
+#        'NAME': 'dondesang',
+#        'HOST': '127.0.0.1',
+#        'PORT': 3306,
+#        'USER': 'root',
+#        'PASSWORD': '',
+#    }
+#}
+
 
 #DATABASES = {
 #    'default': {
